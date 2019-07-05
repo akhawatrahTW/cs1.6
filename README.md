@@ -29,8 +29,10 @@ The code is a bit (really) badly structred, but all the logic is there. So hopef
 * Asset manager
 * In-game menu  
 
-The project uses 3.x version of babylonjs. I tried porting to 4.0 but got some issues animating the player.
-All models were extracted from CS 1.6 and fixed using blender. I own nothing of them.
+The project uses 3.x version of babylonjs. I tried porting to 4.0 but got some issues animating the player.  
+
+All models were extracted from CS 1.6 and fixed using blender. I own nothing of them.  
+
 A* is based on this (https://github.com/bgrins/javascript-astar)
 
 # To try it
