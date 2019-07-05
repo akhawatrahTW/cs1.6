@@ -1,0 +1,21 @@
+﻿{
+    "animate": false,
+    "refreshrate": 1.0,
+    "uniforms": [
+        {
+            "type": "float",
+            "name": "dirtAmplifier",
+            "value": "0.1"
+        }
+    ],
+    "sampler2Ds": [
+        {
+            "sample2Dname": "dirtSampler",
+            "textureRelativeUrl": "../stonewall.jpg"
+        },
+        {
+            "sample2Dname": "grassSampler",
+            "textureRelativeUrl": "../dirt.jpg"
+        }
+    ]
+}

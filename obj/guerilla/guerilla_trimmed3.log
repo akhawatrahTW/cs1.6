@@ -1,0 +1,76 @@
+Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		export scope        :  ALL
+		inline textures     :  false
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  /Users/abdullah.alkhawatrah/games/cs3/obj/guerilla/
+	Python World class constructor completed
+	processing begun of skeleton:  guerilla_skeleton, id:  0
+		processing begun of bone:  Bip01, index:  0
+		processing begun of bone:  Bip01 Pelvis, index:  1
+		processing begun of bone:  Bip01 Spine, index:  2
+		processing begun of bone:  Bip01 Spine1, index:  3
+		processing begun of bone:  Bip01 Spine2, index:  4
+		processing begun of bone:  Bip01 Spine3, index:  5
+		processing begun of bone:  Bip01 Neck, index:  6
+		processing begun of bone:  Bip01 Head, index:  7
+		processing begun of bone:  Bip01 L Clavicle, index:  8
+		processing begun of bone:  Bip01 L UpperArm, index:  9
+		processing begun of bone:  Bip01 L Forearm, index:  10
+		processing begun of bone:  Bip01 L Hand, index:  11
+		processing begun of bone:  Bip01 L Finger0, index:  12
+		processing begun of bone:  Bip01 L Finger01, index:  13
+		processing begun of bone:  Bip01 L Finger1, index:  14
+		processing begun of bone:  Bip01 L Finger11, index:  15
+		processing begun of bone:  -- L Elbow, index:  16
+		processing begun of bone:  Bip01 R Clavicle, index:  17
+		processing begun of bone:  Bip01 R UpperArm, index:  18
+		processing begun of bone:  Bip01 R Forearm, index:  19
+		processing begun of bone:  Bip01 R Hand, index:  20
+		processing begun of bone:  Bip01 R Finger0, index:  21
+		processing begun of bone:  Bip01 R Finger01, index:  22
+		processing begun of bone:  Bip01 R Finger1, index:  23
+		processing begun of bone:  Bip01 R Finger11, index:  24
+		processing begun of bone:  -- R Elbow, index:  25
+		processing begun of bone:  Bomb, index:  26
+		processing begun of bone:  Bip01 L Thigh, index:  27
+		processing begun of bone:  Bip01 L Calf, index:  28
+		processing begun of bone:  Bip01 L Foot, index:  29
+		processing begun of bone:  Bip01 L Toe0, index:  30
+		processing begun of bone:  Bip01 R Thigh, index:  31
+		processing begun of bone:  Bip01 R Calf, index:  32
+		processing begun of bone:  Bip01 R Foot, index:  33
+		processing begun of bone:  Bip01 R Toe0, index:  34
+		processing action dummy_mainsequence:  in[5 - 1060], out[0 - 1060]
+	processing begun of mesh:  guerilla
+		processing begun of Standard material:  hltex000
+			Diffuse texture found "Texture"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of Standard material:  hltex001
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  guerilla_trimmed3.Multimaterial#0
+		num positions      :  1427
+		num normals        :  1427
+		num uvs            :  2854
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4182
+		Skeleton stats:  
+			Total Influencers:  1427
+			Avg # of influencers per vertex:  1
+			Highest # of influencers observed:  1, num vertices with this:  1427
+			exported as 1 influencers
+			num skeletonWeights and skeletonIndices:  5708
+		WARNING: # of 0 area faces found:  10
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 2.6859 secs

@@ -1,0 +1,47 @@
+Exporter version: 5.6.4, Blender version: 2.79 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		export scope        :  ALL
+		inline textures     :  false
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  /Users/abdullah.alkhawatrah/gamepractice/cs2/obj/knife/
+	Python World class constructor completed
+	processing begun of skeleton:  knife_skeleton, id:  0
+		processing begun of bone:  Bip01, index:  0
+		processing begun of bone:  Bip01 Pelvis, index:  1
+		processing begun of bone:  Bip01 Spine, index:  2
+		processing begun of bone:  Bip01 Spine1, index:  3
+		processing begun of bone:  Bip01 Spine2, index:  4
+		processing begun of bone:  Bip01 Spine3, index:  5
+		processing begun of bone:  Bip01 Neck, index:  6
+		processing begun of bone:  Bip01 R Clavicle, index:  7
+		processing begun of bone:  Bip01 R UpperArm, index:  8
+		processing begun of bone:  Bip01 R Forearm, index:  9
+		processing begun of bone:  Bip01 R Hand, index:  10
+		processing begun of bone:  skin01, index:  11
+	processing begun of mesh:  knife
+		processing begun of Standard material:  hltex000
+			Diffuse texture found "Texture"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  169
+		num normals        :  169
+		num uvs            :  338
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  336
+		Skeleton stats:  
+			Total Influencers:  169
+			Avg # of influencers per vertex:  1
+			Highest # of influencers observed:  1, num vertices with this:  169
+			exported as 1 influencers
+			num skeletonWeights and skeletonIndices:  676
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.0213 secs

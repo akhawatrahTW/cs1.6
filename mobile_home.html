@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @font-face {
+            font-family: Counter-Strike;
+            src: url('fonts/cs_regular.woff');
+        }
+
+        body,
+        html {
+            overflow: hidden;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            font-family: Counter-Strike;
+
+        }
+
+        .bg {
+            /* The image used */
+            background-image: url("images/bg.png");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .fg {
+            position: absolute;
+            /* Sit on top of the page content */
+            /* Hidden by default */
+            width: 95%;
+            /* Full width (cover the whole page) */
+            height: 50%;
+            /* Full height (cover the whole page) */
+            top: 20%;
+            left: 0;
+            margin-left: 5px;
+            bottom: 0;
+            /* Black background with opacity */
+            z-index: 2;
+            color: rgb(247, 222, 1);
+            text-align: left;
+            font-size: 14px
+        }
+
+        header {
+            background-color: rgb(2, 39, 82);
+            padding: 10px;
+            text-align: left;
+            color: rgb(247, 222, 1);
+        }
+
+        .button {
+            background-color: rgb(247, 222, 1);
+            color: rgb(2, 39, 82);
+            padding: 2px ;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            position: absolute;
+            margin-right: 5px;
+            right: 0;
+            top: 0;
+            margin-top: 4px;
+            font-size: 22px
+
+        }
+        .tweet{
+            bottom: 10px;
+            color: rgb(247, 222, 1);
+            position: absolute;
+            right: 0;
+            margin-right: 20px;
+            font-size: 14px;
+
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            padding: 5px;
+            padding-right: 5px;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(2, 39, 82);
+            color: rgb(247, 222, 1);
+            text-align: left;
+            font-size: 14px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+         CS 1.6 WebGL 
+        <a href="mobile.html" class="button">Play</a>
+
+    </header>
+    <div class="bg"></div>
+    <div class="footer">
+        <p style="width:50%">All models were extracted from CS 1.6 with some tweaking in Blender.</p>
+        <a class="tweet" href="https://twitter.com/akhawatrah1">@akhawatrah</a>
+
+    </div>
+    <div class="fg">Counter-Strike is not just a game, not for me. Hours spent everyday playing with friends.
+        This is not even close to what the game is, it is just a fun project to learn Babylonjs and to experiment
+        with the power of WebGL.
+    </div>
+
+</body>
+
+</html>
