@@ -37,3 +37,9 @@ A* is based on this (https://github.com/bgrins/javascript-astar)
 
 # To try it
 https://cs16.herokuapp.com/
+# Run it locally
+You will need a web server running on your dev machine. The easist way is to use python. Install python and run the following in the project root:  
+
+python -m SimpleHTTPServer 8000
+
+
