@@ -41,6 +41,6 @@ https://cs16.herokuapp.com/
 You will need a web server running on your dev machine. The easist way is to use python. Install python and run the following in the project root:  
 
 python -m SimpleHTTPServer 8000  
-Then open this in your browser (this is tested in Chrome): http://localhost:8000/home.html
+Then open this in your browser (tested in Chrome): http://localhost:8000/home.html
 
 
